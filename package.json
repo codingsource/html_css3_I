@@ -1,11 +1,14 @@
 {
-    "name": "name",
+    "name": "Biografia João da Silva",
     "description": "Projeto sobre João da Silva",
     "authors": "Peter Thomas",
     "version": "1.0.0",
     "main": "index.html",
     "scripts": {
         "gulp": "gulp"
+    },
+    "directories": {
+        "man": "./"
     },
     "repository": {
         "type": "html",
