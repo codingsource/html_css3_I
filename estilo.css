@@ -4,15 +4,25 @@ body {
     font-size: 120%;
 }
 
+h1 {
+    text-transform: uppercase;
+}
+
 h1,
 h2 {
     font-family: 'Open Sans Condensed', Arial, Helvetica, sans-serif;
+}
+
+main a {
+    color: #851944;
 }
 
 main h1 {
     text-align: center;
     background-color: #851944;
     color: #FFF;
+    margin: 0;
+    padding: 24px;
 }
 
 p {
@@ -21,11 +31,25 @@ p {
 
 blockquote {
     background-color: #D9E5E3;
+    border: 10px solid #C2CCCA;
+    width: 250px;
+    margin: 0;
+    padding: 16px;
+    box-sizing: border-box;
 }
 
 aside {
     background-color: #3C1D3D;
     color: #F2FFFC;
+}
+
+aside a {
+    /*
+    * inherrit pega o padrao definido no pai ou no seu ancestraul
+    */
+    color: inherit;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-decoration: none;
 }
 
 footer {
