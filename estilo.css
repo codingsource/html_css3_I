@@ -2,6 +2,15 @@ body {
     font-family: 'Crimson Text', 'Times New Roman', Times, serif;
     background-color: #F2FFFC;
     font-size: 120%;
+    line-height: 1.5;
+}
+
+strong {
+    font-weight: 700;
+}
+
+em {
+    font-style: italic;
 }
 
 h1 {
@@ -12,6 +21,15 @@ h1,
 h2 {
     font-family: 'Open Sans Condensed', Arial, Helvetica, sans-serif;
 }
+h2 {
+    font-size: 30px;
+}
+
+main div {
+    width: 720px;
+    margin: auto;
+    padding: 30px 0;
+}
 
 main a {
     color: #851944;
@@ -20,27 +38,35 @@ main a {
 main h1 {
     text-align: center;
     background-color: #851944;
+    font-size: 60px;
     color: #FFF;
     margin: 0;
-    padding: 24px;
+    padding: 25px;
+    border-bottom: 10px solid #000;
 }
 
 p {
     text-align: justify;
+    margin: 20px 0;
 }
 
 blockquote {
     background-color: #D9E5E3;
     border: 10px solid #C2CCCA;
     width: 250px;
-    margin: 0;
-    padding: 16px;
+    margin: 20px 40px;
     box-sizing: border-box;
 }
 
 aside {
     background-color: #3C1D3D;
     color: #F2FFFC;
+    text-align: center;
+}
+
+aside h1{
+    font-size: 30px;
+    margin-bottom: 25px;
 }
 
 aside a {
@@ -52,11 +78,19 @@ aside a {
     text-decoration: none;
 }
 
+blockquote, aside, footer {
+    padding: 20px;
+}
+
 footer {
     background-color: #000;
     color: #F2FFFC;
+    padding: 20px;
 }
 
 nav a {
     color: #F2FFFC;
+}
+aside li{
+    display: inline-block;
 }
