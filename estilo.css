@@ -21,6 +21,7 @@ h1,
 h2 {
     font-family: 'Open Sans Condensed', Arial, Helvetica, sans-serif;
 }
+
 h2 {
     font-size: 30px;
 }
@@ -50,21 +51,23 @@ p {
     margin: 20px 0;
 }
 
-blockquote {
+.citacoes {
     background-color: #D9E5E3;
     border: 10px solid #C2CCCA;
     width: 250px;
     margin: 20px 40px;
     box-sizing: border-box;
+    padding: 20px;
 }
 
-aside {
+.navegacao-site {
     background-color: #3C1D3D;
     color: #F2FFFC;
+    padding: 20px;
     text-align: center;
 }
 
-aside h1{
+aside h1 {
     font-size: 30px;
     margin-bottom: 25px;
 }
@@ -78,11 +81,7 @@ aside a {
     text-decoration: none;
 }
 
-blockquote, aside, footer {
-    padding: 20px;
-}
-
-footer {
+.rodape {
     background-color: #000;
     color: #F2FFFC;
     padding: 20px;
@@ -91,6 +90,13 @@ footer {
 nav a {
     color: #F2FFFC;
 }
-.icones-sociais li{
+
+.icones-sociais li {
     display: inline-block;
+}
+
+.artigo {
+    padding-bottom: 30px;
+    border-bottom: 1px solid #CCC;
+    margin-bottom: 20px;
 }
