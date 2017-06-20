@@ -13,7 +13,7 @@ em {
     font-style: italic;
 }
 
-h1 {
+.titulo-principal {
     text-transform: uppercase;
 }
 
@@ -89,6 +89,7 @@ aside a {
 
 nav a {
     color: #F2FFFC;
+    text-transform: lowercase;
 }
 
 .icones-sociais li {
@@ -99,4 +100,33 @@ nav a {
     padding-bottom: 30px;
     border-bottom: 1px solid #CCC;
     margin-bottom: 20px;
+}
+
+.leia-mais {
+    padding: 8px;
+    margin: 16px;
+    display: block;
+    font-size: 24px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #E6E7E8;
+}
+
+.icones-sociais a {
+    display: block;
+    text-indent: -99999px;
+    width: 40px;
+    height: 40px;
+}
+
+.github {
+    background-image: url(twitter.png);
+}
+
+.twitter {
+    background-image: url(github.png);
+}
+
+.linkedin {
+    background-image: url(linkedin.png);
 }
