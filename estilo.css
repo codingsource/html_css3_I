@@ -27,6 +27,11 @@ h2 {
     clear:  both;
 }
 
+main {
+   width: 85%;
+   float: left;
+}
+
 main div {
     width: 720px;
     margin: auto;
@@ -66,14 +71,14 @@ p {
     color: #F2FFFC;
     padding: 20px;
     text-align: center;
-}
-
-aside {
-    clear: right;
+    border-left: 10px solid #000; 
+    border-bottom: 10px solid #000; 
 }
 
 aside, img {
+    width: 15%;
     float: right;
+    box-sizing: border-box;
 }
 
 aside h1 {
@@ -147,4 +152,13 @@ nav a {
 .petrobras {
     float: left;
     margin-right: 30px;
+}
+
+footer {
+    clear: both;
+}
+
+.foto {
+    border-left: 10px solid #000;
+    border-bottom: 10px solid #000;
 }
